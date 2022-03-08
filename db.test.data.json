@@ -1,0 +1,103 @@
+/*COLLECTION PERSON*/
+db.person.insertMany(
+[
+    {
+        "id_person": 1,
+        "nombre": {
+            "first_name": "Jhordan",
+            "last_name": "Escobar"
+        },
+        "edad": 25,
+        "f_nacimiento": new Date("1997, 01, 17"),
+        "altura": 1.75,
+        "distrito": "VMT",
+        "hobby": [
+            "Guitarra",
+            "Deporte",
+            "Programar",
+            "Pasear"
+        ],
+        "profesion": [
+            "Ing.Sistemas",
+            "Dev",
+            "Devops"
+        ],
+        "carro": [
+            {
+                "marca": "Mitsubichi",
+                "modelo": "Lancer",
+                "año": 2010,
+                "precio": 25000
+            },
+            {
+                "marca": "Volkswagen",
+                "modelo": "Jetta",
+                "año": 2012,
+                "precio": 40000
+            }
+        ]
+    },
+    {
+        "id_person": 2,
+        "nombre": {
+            "first_name": "Alexander",
+            "last_name": "Zuñiga"
+        },
+        "edad": 27,
+        "f_nacimiento": new Date("1995, 05, 20"),
+        "altura": 1.72,
+        "distrito": "VES",
+        "hobby": [
+            "Guitarra",
+            "Deporte",
+            "Programar",
+            "Pasear"
+        ],
+        "profesion": [
+            "Ing.Sistemas",
+            "Dev",
+            "RPA"
+        ],
+        "carro": [
+            {
+                "marca": "Toyota",
+                "modelo": "Corolla",
+                "año": 2022,
+                "precio": 60000
+            },
+            {
+                "marca": "Jeep",
+                "modelo": "Grand Cherokee",
+                "año": 2022,
+                "precio": 70000
+            }
+        ]
+    },
+    {
+        "id_person": 3,
+        "nombre": {
+            "first_name": "Jhossimar",
+            "last_name": "Vilca"
+        },
+        "edad": 30,
+        "f_nacimiento": new Date("1992, 05, 20"),
+        "altura": 1.65,
+        "distrito": "VMT",
+        "hobby": [
+            "Deporte",
+            "Programar",
+            "Pasear"
+        ],
+        "profesion": [
+            "Ing.Sistemas",
+            "Dev",
+            "RPA"
+        ],
+        "carro": {
+            "marca": "Nissan",
+            "modelo": "Versa",
+            "año": 2022,
+            "precio": 70000
+        }
+    }
+])
